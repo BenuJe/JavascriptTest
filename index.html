@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css" />
+  </head>
+  <body>
+    <h1>Let me help you by counting you line</h1>
+    <form
+      id="form"
+      novalidate
+      success-msg="Success"
+      fail-msg="Failed"
+      method="post"
+    >
+      <div class="form-group">
+        <label>
+          Text to repeat :
+          <input id="name" class="form-control" required />
+        </label>
+      </div>
+      <div class="form-group">
+        <label>
+          Number of line:
+          <input id="number" class="form-control" min="1" max="100" required />
+        </label>
+      </div>
+      <button class="button" id="test1" type="submit" value="submit">
+        Write it.
+      </button>
+    </form>
+
+    <!-- <form
+      id="form2"
+      novalidate
+      success-msg="Success"
+      fail-msg="Failed"
+      method="post"
+    >
+      <div class="form-group">
+        <label>
+          Number 1
+          <input id="Form2Number" class="form-control" required />
+        </label>
+      </div>
+      <div class="form-group">
+        <label>
+          Number 2
+          <input
+            id="Form2Number2"
+            class="form-control"
+            min="1"
+            max="100"
+            required
+          />
+        </label>
+      </div>
+      <button class="button2" id="test2" type="submit" value="submit">
+        Calculate
+      </button>
+    </form> -->
+
+    <script src="index.js"></script>
+  </body>
+</html>
